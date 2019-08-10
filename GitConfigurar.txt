@@ -14,5 +14,7 @@ git commit -m "COMENTARIO"  para subir al repositorio
 git status   muestra el estatus del proyecto
 
 
+git log   muestra el LOG de lo que se ha realizado
+
 
 
