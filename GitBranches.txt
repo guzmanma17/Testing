@@ -33,3 +33,48 @@ git push origin --delete feature/ejercicio5  (Para borrar el remoto)
 
 merge nos permite combinar automaticamente el trabajo de 2 personas sin nececidad de andar copiando manualmente.
 
+RELEASE brnaches
+Salen de Develop
+Se nombran release-[version]
+    por ejemplo release-1.0
+Se ejecutan todas las pruebas
+Si pasan las pruebas, la rama se junta con develop y master
+La mezcla con master se usa un TAG paea marcar el cambio
+
+HOT FIX
+Es un cambio urgente, pequeño, en produccion
+Son resultado de un mal aseguramiento de la version
+salen de master
+se nombran hotfix-[version]
+
+se ejecutan todas las pruebas
+Si pasan las pruebas, la rama se junta con develop y master
+La mezcla con master se usa un TAG paea marcar el cambio
+
+Pull Request
+Pedir revision del codigo para hacer un pull
+CODE REVIEW
+es una practica preventiva  aseguramiento de la calidad y al mismo tiempo es una practica de transferencia 
+se sugiere revisar varias veces el codigo con ayuda de una checklist, revisando un solo aspecto en cada pasada
+Posteriormente un compañero lo deve revisar yu aprobar.
+
+Code checklist
+Se sugiere almenos revisar:
+Convenciones de estilo de variables funciones y comentarios
+
+
+CONTINUOS INTEGRATION
+Todos trabajan sobre un mismo proyecto, hacen cambios y todo esta bien integrado
+
+Principios de mejora continua
+Mejorar el flujo de valor
+Reducir los ciclos de retroalimentacion
+Experimentacion y aprendizaje continuos 
+
+Que se requiere para CI
+control de versiones
+-compilacion o integracion automatica
+Acuerdo de equipo en cuCM)
+    cuidadosa, incluyendo dependencias, librerias y un ambiente de desarrollo similar al de produccion.
+    
+Jenkings
