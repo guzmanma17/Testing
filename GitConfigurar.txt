@@ -1,0 +1,7 @@
+git config --global user.name "Miguel Angel Guzman"
+
+git config --global user.email guzmanma@magfyp.com
+
+git config --global push.default matching
+
+git config --global alias.co checkout
