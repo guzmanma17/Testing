@@ -25,3 +25,4 @@ git checkout -b nueva_rama   crear una rama
 git checkout rama   para cambiarnos de rama
 git checkout -d rama  para borrar una branch
 git checkout -D rama forza el borrado de la rama **Cuidado con esta Opcion**
+git merge para mesclar los cambios en cada rama
