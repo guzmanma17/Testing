@@ -5,3 +5,14 @@ git config --global user.email guzmanma@magfyp.com
 git config --global push.default matching
 
 git config --global alias.co checkout
+
+
+git add *  para agregar archivos y preparar para commit
+
+git commit -m "COMENTARIO"  para subir al repositorio
+
+git status   muestra el estatus del proyecto
+
+
+
+
