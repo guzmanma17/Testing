@@ -1,0 +1,35 @@
+Branch
+
+una rama es una copia del codigo relativa a l punto del commit dondre surge la rama
+
+cada rama tiene y mantiene su propio historial de transacciones (Versiones)
+
+las ramas pueden juntarse, lo que permite trabajar en paralelo .
+
+# tipos de brnaches carpetas
+Dinamica, personales de desarrollo 
+    Controlada rama develop  donde hago mis cambios
+    Estatica  rama master  la que esta en produccion
+
+Las ramas principales son las unicas que estan activas durante todo el proyecto:
+MASTER   DEVELOP
+
+No se hacen commits en MASTER, se hacen pocos en DEVELOP se generan más ramas
+
+Feature Branch
+Se crea para representar una funcionalidad o caracteristica
+Es donde ocurre el trabajo
+Nacen de Develop y se juntan con Develop
+Se sugiere se nombre [nombre]/[feature]
+
+git branch  lista las ramas que tenemos localmente
+git checkout -b nueva_rama   crear una rama
+git checkout rama   para cambiarnos de rama
+git branch -d rama  para borrar una branch
+git branch -D rama forza el borrado de la rama **Cuidado con esta Opcion**
+git merge para mesclar los cambios en cada rama
+
+git push origin --delete feature/ejercicio5  (Para borrar el remoto)
+
+merge nos permite combinar automaticamente el trabajo de 2 personas sin nececidad de andar copiando manualmente.
+
