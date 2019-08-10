@@ -16,5 +16,12 @@ git status   muestra el estatus del proyecto
 
 git log   muestra el LOG de lo que se ha realizado
 
+git push origin master  para subir a la nube y poder tenerlo en github
 
+git revert ID  para regresar un cambio.
 
+git branch  lista las ramas que tenemos localmente
+git checkout -b nueva_rama   crear una rama
+git checkout rama   para cambiarnos de rama
+git checkout -d rama  para borrar una branch
+git checkout -D rama forza el borrado de la rama **Cuidado con esta Opcion**
