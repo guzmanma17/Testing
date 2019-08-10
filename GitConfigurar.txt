@@ -16,6 +16,5 @@ git status   muestra el estatus del proyecto
 
 git log   muestra el LOG de lo que se ha realizado
 
-git push origin master  para subir a la nube y poder tenerlo en github
 
 
